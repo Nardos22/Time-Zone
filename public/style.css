@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .menu-items {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+  .logo img{
+ max-width: 45px;
+ margin-right: 200px;
+  }
+  
+  .menu-items > a {
+   padding: 70px;
+  }
+  
