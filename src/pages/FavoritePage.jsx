@@ -1,7 +1,16 @@
 import React from "react";
-
+import fav from "./../components/home.jpg"
+import "./../css/FavoritePage.css"
 const FavoritePage = () => {
-  return <h1>Favorite Page</h1>;
+    return <div id="favorite">
+      <div id="favorite-background-image">
+          <img   src={fav}/>
+      </div>
+      <div id="favorite-content">
+
+      </div>
+
+  </div>;
 };
 
 export default FavoritePage;
