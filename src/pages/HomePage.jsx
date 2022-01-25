@@ -4,7 +4,7 @@ import home from "/home.jpg"
 
 
 let analogClockOptions = {
-  width: "150px",
+  width: "350px",
   border: true,
   borderColor: "#2e2e2e",
   baseColor: "#17a2b8",
@@ -32,9 +32,6 @@ return <div id="home">
               <div id="analog-clock">
                     <AnalogClock  {...analogClockOptions} />
               </div>
-        </div>
-        <div >
-            <h3>    </h3>
         </div>
 </div>
 
