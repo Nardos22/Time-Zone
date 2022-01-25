@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => (
   <div className="footer">
-    <p>TIMEZONE</p>
+    <p>© 2022 TimeZone. All rights reserved.</p>
   </div>
 );
 

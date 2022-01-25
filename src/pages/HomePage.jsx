@@ -34,7 +34,7 @@ return <div id="home">
               </div>
         </div>
         <div >
-            <h3> Footer Here   </h3>
+            <h3>    </h3>
         </div>
 </div>
 
