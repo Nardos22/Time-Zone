@@ -6,12 +6,11 @@ import WorldMapPage from "./pages/WorldMapPage";
 import FavoritePage from "./pages/FavoritePage";
 import MissingPage from './pages/MissingPage';
 import TopNavBar from "./components/TopNavBar";
-
+import Footer from "./components/Footer";
 function App() {
   return (
       <>
       <TopNavBar></TopNavBar>
-      <Title />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cities" element={<Cities />} />
@@ -19,6 +18,7 @@ function App() {
         <Route path="/favorite" element={<FavoritePage />} />
         <Route path="/*" element={<MissingPage />} />
       </Routes> 
+      <Footer></Footer>
       </>
   );
 }

@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  html {
+    overflow-y: hidden;
+  }
+  .menu-items {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+  .logo img{
+ max-width: 45px;
+ margin-right: 200px;
+  }
+  
+  .menu-items > a {
+   padding: 70px;
+  }
+  
+  /* header css */
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #C4CAD7;
+  color: #3C64B1;
+}
+
+/* footer css*/
+.footer{
+margin-top: 1rem;
+  padding: 1rem;
+  background-color: #C4CAD7;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: 3C64B1;
+}

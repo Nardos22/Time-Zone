@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../components/logo.png';
+import logo from '/logo.png';
 
 
 const TopNavBar = () => {

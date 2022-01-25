@@ -1,7 +1,6 @@
 import React from "react";
-import "./../css/HomePage.css"
 import AnalogClock from 'analog-clock-react'
-import home from "./../components/home.jpg"
+import home from "/home.jpg"
 
 
 let analogClockOptions = {

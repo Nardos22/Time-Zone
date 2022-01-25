@@ -1,6 +1,4 @@
-html {
-  overflow-y: hidden;
-}
+
 #home {
   position: relative;
 
@@ -35,29 +33,5 @@ html {
   opacity: 1;
   margin-bottom: 20px;
   margin-top: 20px;
-}
-/* header css */
-.Header {
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  justify-content: left;
-  align-items: baseline;
-  padding: 1em;
-  margin-bottom: 2em;
-  background-color: #C4CAD7;
-  color: #3C64B1;
-}
-
-/* footer css*/
-.Footer{
-margin-top: 1rem;
-  padding: 1rem;
-  background-color: #C4CAD7;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  color: 3C64B1;
 }
 
