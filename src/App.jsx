@@ -11,6 +11,7 @@ function App() {
   return (
       <>
       <TopNavBar></TopNavBar>
+      <Title />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cities" element={<Cities />} />
