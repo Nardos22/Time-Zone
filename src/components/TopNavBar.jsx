@@ -6,8 +6,8 @@ import logo from '/images/logo.png';
 const TopNavBar = () => {
   return (
       <div className="menu-items">
-        <div className="logo">
-        <Link to="/"><img src={logo} alt="" /></Link>
+        <div className="logoContent">
+          <Link to="/"><div className="logo"><img src={logo} alt="" /> <span>TimeZone</span> </div></Link>
         </div>
         <Link to="/">Home</Link>
         <Link to="/cities">Cities</Link>

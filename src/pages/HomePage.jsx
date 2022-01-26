@@ -1,28 +1,37 @@
-import React from "react";
-import AnalogClock from 'analog-clock-react'
-
+import React, { useState } from "react";
+import Clock from  "react-digital-clock"
+import AnalogueClock from 'react-analogue-clock';
 let analogClockOptions = {
-  width: "350px",
-  border: true,
-  borderColor: "#2e2e2e",
-  baseColor: "#17a2b8",
-  centerColor: "#459cff",
-  centerBorderColor: "#ffffff",
+  baseColor: '#ffffff',
+  borderColor: '#000000',
+  borderWidth: 5,
+  centerColor: '#000000',
   handColors: {
-    second: "#d81c7a",
-    minute: "#ffffff",
-    hour: "#ffffff"
-  }
+      hour: '#000000',
+      minute: '#000000',
+      second: '#000000',
+  },
+  notchColor: '#000000',
+  numbersColor: '#000000',
+  showNumbers: true,
+  size: 250
 };
 
+let clocks = [
+  "Analog" ,
+  "Digital" 
+]
 
 const HomePage = () => {
+
+  const [activeClock , setActiveClock] = useState(0);
 return <div id="home">
         <div id = "clocks-container">
-              <div id="digital-clock"></div>
-              <div id="analog-clock">
-                    <AnalogClock  {...analogClockOptions} />
-              </div>
+              {
+                activeClock == 0 ? <div className="digital-clock"> <div> <Clock/> </div></div> :  <AnalogueClock  {...analogClockOptions} />  
+              }
+
+              <button className="toggle-clocks" onClick={() => { setActiveClock(activeClock == 0 ? 1 : 0) }}> Show {clocks[activeClock]}  </button>
         </div>
 </div>
 
