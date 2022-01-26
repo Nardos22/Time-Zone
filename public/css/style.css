@@ -3,38 +3,29 @@
     margin: 0;
     padding: 0;
   }
- 
-  html {
-    overflow-y: hidden;
+
+  body{
+    background-image: url('/public/images/home.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .menu-items {
+    position: fixed;
     height: 50px;
     width: 100%;
     display: flex;
     align-items: center;
-    
+    background-color: #C4CAD7;
   }
   .logo img{
  max-width: 45px;
- margin-right: 200px;
+ margin-right: 400px;
   }
   
   .menu-items > a {
    padding: 70px;
   }
-  
-  /* header css */
-.header {
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  justify-content: left;
-  align-items: baseline;
-  padding: 1em;
-  margin-bottom: 2em;
-  background-color: #C4CAD7;
-  color: #3C64B1;
-}
 
 /* footer css*/
 .footer{
@@ -45,6 +36,15 @@ margin-top: 1rem;
   bottom: 0;
   left: 0;
   width: 100%;
-  color: 3C64B1;
   text-align: center;
+}
+
+#home{
+text-align: center;
+}
+
+#analog-clock {
+  opacity: 1;
+  position:absolute; 
+  margin: 220px;
 }

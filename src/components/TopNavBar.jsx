@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '/logo.png';
+import logo from '/images/logo.png';
 
 
 const TopNavBar = () => {
@@ -11,11 +11,7 @@ const TopNavBar = () => {
         </div>
         <Link to="/">Home</Link>
         <Link to="/cities">Cities</Link>
-        <Link to="/worldmap">Worldmap</Link>
         <Link to="/favorite">Favorite</Link>
-        <input type="text" className="searchItem" id="search"
-         placeholder="Search city/timezone" />
-        <button type="submit" className="searchButton">Search</button>
       </div>
      
   );

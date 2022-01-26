@@ -1,7 +1,5 @@
 import React from "react";
 import AnalogClock from 'analog-clock-react'
-import home from "/home.jpg"
-
 
 let analogClockOptions = {
   width: "350px",
@@ -18,15 +16,8 @@ let analogClockOptions = {
 };
 
 
-
-
-
 const HomePage = () => {
 return <div id="home">
-<div id="home-background-image">
-    <img   src={home}/>
-</div>
-<div id="home-content">
         <div id = "clocks-container">
               <div id="digital-clock"></div>
               <div id="analog-clock">
@@ -35,6 +26,5 @@ return <div id="home">
         </div>
 </div>
 
-</div>
 }
 export default HomePage;
