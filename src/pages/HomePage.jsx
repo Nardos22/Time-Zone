@@ -26,12 +26,15 @@ const HomePage = () => {
 
   const [activeClock , setActiveClock] = useState(0);
 return <div id="home">
-        <div id = "clocks-container">
-              {
-                activeClock == 0 ? <div className="digital-clock"> <div> <Clock/> </div></div> :  <AnalogueClock  {...analogClockOptions} />  
-              }
+  <div id = "clocks-container">
+     {
+      activeClock == 0 ? <div className="digital-clock"> <div> <Clock />
+      </div></div> :
+      <AnalogueClock  {...analogClockOptions} />  
+      }
 
-              <button className="toggle-clocks" onClick={() => { setActiveClock(activeClock == 0 ? 1 : 0) }}> Show {clocks[activeClock]}  </button>
+<button className="toggle-clocks" onClick={() => { setActiveClock(activeClock == 0 ? 1 : 0) }}>
+      Show {clocks[activeClock]}  </button>
         </div>
 </div>
 
