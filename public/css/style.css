@@ -10,7 +10,6 @@
     background-image: url('/public/images/home.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
     background-size: cover;
   }
   .menu-items {
@@ -106,4 +105,9 @@ margin-top: 1rem;
   font-weight: normal;
   font-weight: 450;
   font-kerning: auto;
+}
+
+.city{
+  background-color: white;
+  max-width: 650px;
 }
