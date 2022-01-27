@@ -9,7 +9,7 @@ let analogClockOptions = {
   handColors: {
       hour: '#000000',
       minute: '#000000',
-      second: '#000000',
+      second: '#3C64B1',
   },
   notchColor: '#000000',
   numbersColor: '#000000',
