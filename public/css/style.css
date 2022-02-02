@@ -1,7 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden !important;
+    overflow-y: hidden;
   }
 
 
@@ -14,55 +17,61 @@
   }
   .menu-items {
     /* position: fixed; */
-    height: 50px;
-    width: 100%;
+    width: 100vw;
     display: flex;
-    align-items: center;
+    padding: 0 10vw;
     background-color: #C4CAD7;
+    align-items: center;
   }
   .logo{
-    margin-right: 250px;
-    margin-left: 50px;
+
     display: flex;
     align-items: center;
   }
   .logo img{
- max-width: 35px;
-padding: 5px;
+      max-width: 35px;
+      padding: 5px;
   }
   .logoContent a {
     text-decoration: none ;
     color  : black  ;
   }
-  .menu-items > a {
-   padding: 70px;
-  }
+.nav-links {
+ 
+ margin:  0 13vw;
+  padding-right: 10vw;
+  display : flex ; 
+  flex-wrap: wrap;
+
+}
+.nav-links > a  {
+  margin:  0 5vw ;
+  color : black ;
+  text-decoration: none;
+  font-weight: 500;
+}
+
 
 /* footer css*/
 .footer{
-margin-top: 1rem;
-  padding: 1rem;
+  margin-top: 1rem;
+  padding:5px;
   background-color: #C4CAD7;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  font-size: 12px;
+  font-weight: 600;
   text-align: center;
 }
 
 
 
 
-/* #analog-clock {
-  opacity: 1;
-  position:absolute; 
-  margin: 220px;
-} */
 /**
 * Style For Home Page 
 */
-
-
 
 #clocks-container {
 
@@ -93,6 +102,7 @@ margin-top: 1rem;
   color: black !important;
 }
 
+
 .toggle-clocks{
   background-color: #c4cad775;
   color: black;
@@ -110,4 +120,165 @@ margin-top: 1rem;
 .city{
   background-color: white;
   max-width: 650px;
+}
+
+
+/**
+  Style For Favorite Page 
+*/
+
+#favorite{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  user-select: none;
+
+}
+
+.fav-clock {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.fav-clock-col{
+  width: 20px;
+  height: 25px;
+  background-color: #ececec;
+}
+
+
+.fav-city-name {
+  padding: 5px 10px;
+  min-width: 120px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #ececec;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+.sc-bdvvtL::before{
+
+  font-size:  18px !important;
+
+}
+
+.fav-digital-clock > div *{
+    color:  #ececec !important;
+    font-size: 30px;
+}
+
+#show-fav-cities{
+
+  position: relative;
+  margin-bottom:  35px;
+}
+#show-fav-cities > div:nth-child(1){
+    position: absolute;
+    height: 30px;
+    width: 80%;
+    top: calc(85px - 15px);
+    left:75px;
+    background-color: darkgray;
+    z-index: 0;
+}
+#show-fav-cities > div:nth-child(2){
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: center;
+}
+
+
+#btn-add-city {
+  background-color: darkgray;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  min-width: 150px;
+  font-size: 17px;
+  font-weight: bold;
+  font-weight: 450;
+  font-kerning: auto;
+}
+
+#model-for-cities {
+  position: absolute;
+  top: 10% ;
+  width: 500px;
+  max-height: 455px;
+
+  background-color: #C4CAD7 ;
+  border-radius: 20px;
+  display: flex ;
+  flex-direction: column;
+  padding: 10px;
+
+}
+#model-for-cities > div {
+
+  position: relative;
+  width: 100%;
+
+  padding-top: 30px;
+
+}
+#model-cities-container {
+  overflow-y: scroll;
+  height: 600px;
+}
+#model-for-cities > div > span:first-child {
+  color:  red ;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top : -10px;
+  right : -5px
+
+}
+.model-show-city{
+  display: flex ;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px black solid ;
+}
+.model-show-city:hover{
+  background-color: #ececec;
+  cursor: pointer; 
+}
+
+.model-show-city > img {
+  width: 50%;
+}
+.model-show-city-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width : 45%;
+  align-items: baseline;
+}
+.model-show-city-info bold {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/**
+  responsive
+*/
+
+@media screen and (max-width : 800px) {
+  #show-fav-cities > div:nth-child(1) {
+    display:  none;
+  }
+  #model-for-cities {
+    width : 90vw;
+    min-height: 700px;
+    max-height: 900px;
+  }
 }

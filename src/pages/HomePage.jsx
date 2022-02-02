@@ -1,21 +1,6 @@
 import React, { useState } from "react";
 import Clock from  "react-digital-clock"
-import AnalogueClock from 'react-analogue-clock';
-let analogClockOptions = {
-  baseColor: '#ffffff',
-  borderColor: '#000000',
-  borderWidth: 5,
-  centerColor: '#000000',
-  handColors: {
-      hour: '#000000',
-      minute: '#000000',
-      second: '#3C64B1',
-  },
-  notchColor: '#000000',
-  numbersColor: '#000000',
-  showNumbers: true,
-  size: 250
-};
+import  AnalogClock, {  Themes } from "react-analog-clock";
 
 let clocks = [
   "Analog" ,
@@ -24,15 +9,15 @@ let clocks = [
 
 const HomePage = () => {
 
-  const [activeClock , setActiveClock] = useState(0);
+  const [activeClock , setActiveClock] = useState(1);
 return <div id="home">
   <div id = "clocks-container">
      {
-      activeClock == 0 ? <div className="digital-clock"> <div> <Clock />
+      activeClock == 0 ? <div className="digital-clock"> <div> <Clock hour12={false} />
       </div></div> :
-      <AnalogueClock  {...analogClockOptions} />  
+       <AnalogClock width={250} style="{'border' : '6.5px solid rgb(236, 236, 236)'}" theme={Themes.light} />  
       }
-
+{/*  */}
 <button className="toggle-clocks" onClick={() => { setActiveClock(activeClock == 0 ? 1 : 0) }}>
       Show {clocks[activeClock]}  </button>
         </div>

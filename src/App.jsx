@@ -14,9 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cities" element={<CityList />} />
-        <Route path="/worldmap" element={<WorldMapPage />} />
+        {/* <Route path="/worldmap" element={<WorldMapPage />} /> */}
         <Route path="/favorite" element={<FavoritePage />} />
-        <Route path="/*" element={<MissingPage />} />
+        {/* <Route path="/*" element={<MissingPage />} /> */}
       </Routes> 
       <Footer></Footer>
       </>
