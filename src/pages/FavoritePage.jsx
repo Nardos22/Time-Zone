@@ -3,7 +3,6 @@ import FavClock from "../components/FavClock";
 import cities from "../../public/json/cities.json"
 
 
-
 const FavoritePage = () => {
   let [showModel , setShowModel] = useState(false);
   let [queue , setQueue] = useState(cities.slice(0 , 4));
@@ -11,7 +10,7 @@ return <div id="favorite">
     <div id="show-fav-cities">
         <div ></div>
         <div>
-          {queue.map( (   city ) => {  return  <FavClock key={city.id} city_name={city.city} tz={city.timeZone.replace("," , '/')} />})}
+          {queue.map( (   city ) => {  return  <FavClock key={city.id} city_name={city.cityName} tz={city.timeZone.replace("," , '/')} />})}
         </div>
     </div>
     <button id="btn-add-city" onClick={() => { setShowModel(true) }}>+ Add City </button>

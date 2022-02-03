@@ -1,14 +1,16 @@
-import React from "react";
+
 
 export default function City(props) {
 
-let { city } = props;
-let  { image, country, time } = city;
+let { city, gotoDetail } = props;
+let  {id, image, cityName, timeZone, country } = city;
 
-return <div className="city">
-  <img src={image} />
-  <h3>{country}</h3>
-  <h3>{time}</h3>
+return <div className="city-list" onClick={() => gotoDetail(id)}>
+  <div className="city">
+    <img src= {image} />
+    <h1><span>City: </span>{cityName}</h1>
+    <h3>{country}</h3>
+  </div>
 </div>
+    
 }
-

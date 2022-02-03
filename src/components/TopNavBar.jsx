@@ -16,10 +16,6 @@ const TopNavBar = () => {
         </div>
       </div>
   );
-
-
-
-  
 };
 
 export default TopNavBar;
