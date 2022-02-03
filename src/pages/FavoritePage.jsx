@@ -28,7 +28,7 @@ return <div id="favorite">
                           </div>
                           <div>
                               <b>City : </b>
-                              <span>{city.city}</span>
+                              <span>{city.cityName}</span>
                           </div>
                           <div>
                               <b>T.Z : </b>

@@ -9,8 +9,10 @@ export default function CityDetail(props) {
     <img src={image} />
    <div className='text'>
       <h1>
-         {cityName}, {country}
+         {cityName} , {country}
       </h1>
+      <h2>  {timeZone.replace(/\/|,/ ,  " / ")} </h2>
+      <div className="city-dc-container">
       <div className="description">
         {description.split('\n\n').map((paragraph, i) =>
         <p key = {i}>
@@ -18,9 +20,11 @@ export default function CityDetail(props) {
         </p>)
         }
       </div>
-      <div>
+
       <DetailClock key={city.id} tz={city.timeZone.replace("," , '/')} />
-      </div>   
+  
+      </div>
+
     </div>
   </div>
   }

@@ -10,6 +10,7 @@ return <div className="city-list" onClick={() => gotoDetail(id)}>
     <img src= {image} />
     <h1><span>City: </span>{cityName}</h1>
     <h3>{country}</h3>
+    <h3>TimeZone : {timeZone}</h3>
   </div>
 </div>
     
