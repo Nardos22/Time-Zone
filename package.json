@@ -16,7 +16,8 @@
     "react-bootstrap": "^2.1.2",
     "react-digital-clock": "^0.1.2",
     "react-dom": "^16.13.0",
-    "react-router-dom": "^6.2.1"
+    "react-router-dom": "^6.2.1",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",

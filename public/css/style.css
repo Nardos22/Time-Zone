@@ -16,7 +16,6 @@
     background-size: cover;
   }
   .menu-items {
-    /* position: fixed; */
     width: 100vw;
     display: flex;
     padding: 0 10vw;
@@ -369,10 +368,6 @@
   background-color: rgb(42, 177, 226);
   }
 
-
-
-
-
   .city-list{
 
     margin: 10px 0;
@@ -383,37 +378,37 @@
 */
 
 @media screen and (max-width : 865px) {
-  #show-fav-cities > div:nth-child(1) {
-    display:  none;
-  }
-  #model-for-cities {
-    width : 90vw;
-    min-height: 700px;
-    max-height: 900px;
-  }
-  #favorite {
-      margin-bottom:  30px;
-  }
+    #show-fav-cities > div:nth-child(1) {
+      display:  none;
+    }
+    #model-for-cities {
+      width : 90vw;
+      min-height: 700px;
+      max-height: 900px;
+    }
+    #favorite {
+        margin-bottom:  30px;
+    }
 
-  .nav-links {
-      margin: 10px 5vw;
-      flex-flow: nowrap;
+    .nav-links {
+        margin: 10px 5vw;
+        flex-flow: nowrap;
+    }
+    .menu-items {
+      flex-wrap: wrap;
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+    .fav-clock{
+      margin-top: 5px;
+    }
+    .city-dc-container > * {
+      margin-top: 10px;
+    }  
+  .city-dc-container > .fav-clock {
+      margin: auto;
   }
-  .menu-items {
-    flex-wrap: wrap;
-    padding-top: 10px;
-    padding-bottom: 5px;
-  }
-  .fav-clock{
-    margin-top: 5px;
-  }
-  .city-dc-container > * {
-    margin-top: 10px;
-  }  
-.city-dc-container > .fav-clock {
+  .city-dc-container > .description {
     margin: auto;
-}
-.city-dc-container > .description {
-  margin: auto;
-}
+  }
 }

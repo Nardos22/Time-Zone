@@ -7,7 +7,8 @@ const TopNavBar = () => {
   return (
       <div className="menu-items">
         <div className="logoContent">
-          <Link to="/"><div className="logo"><img src={logo} alt="" /> <span>TimeZone</span> </div></Link>
+          <Link to="/"><div className="logo"><img src={logo} alt="" /> 
+          <span>TimeZone</span> </div></Link>
         </div>
         <div className="nav-links">
             <Link to="/">Home</Link>
