@@ -3,171 +3,164 @@
   "country": "Japan",
   "cityName": "Tokyo",
   "timeZone": "Asia/Tokyo",
-  "description": "Tokyo's greater metropolitan area has a population of over 37 million people making it the biggest in the world.",
+  "description": "Tokyo, the world’s largest metropolis, is known for top-rated restaurants, the Shibuya Crossing, Imperial Palace, cherry blossoms, markets, and more. The shopping scene includes the Harajuku and Akihabara districts. Tokyo is also famous for its vending machines, cat cafes, museums, and sacred sites.",
   "image": "https://images.unsplash.com/photo-1551322120-c697cf88fbdc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8VG9reW98fHx8fHwxNjQzODQwNTAy&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 }, {
   "id": 2,
   "country": "Canada",
   "cityName": "Toronto",
   "timeZone": "America/Edmonton",
-  "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+  "description": "Toronto, city, capital of the province of Ontario, southeastern Canada. It is the most populous city in Canada, a multicultural city, and the country’s financial and commercial centre. Its location on the northwestern shore of Lake Ontario, which forms part of the border between Canada and the United States, and its access to Atlantic shipping via the St. Lawrence Seaway and to major U.S. industrial centres via the Great Lakes have enabled Toronto to become an important international trading centre.",
   "image": "https://images.unsplash.com/photo-1485920694980-9c5db37b0d44?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8VG9yb250b3x8fHx8fDE2NDI4NTk2NTY&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 }, {
   "id": 3,
   "country": "Japan",
   "cityName": "Kyoto",
   "timeZone": "Asia/Tokyo",
-  "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
+  "description": "Kyoto is considered the cultural capital of Japan and a major tourist destination. It is home to numerous Buddhist temples, Shinto shrines, palaces and gardens, some of which are listed collectively by UNESCO as a World Heritage Site.",
   "image": "https://images.unsplash.com/photo-1624467719528-0e311412e665?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8S3lvdG98fHx8fHwxNjQyODYwMjQ2&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 }, {
   "id": 4,
   "country": "Sweden",
   "cityName": "Stockholm",
   "timeZone": "Europe/Stockholm",
-  "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+  "description": "Stockholm is famed for its iconic city hall, the world’s first open-air museum and the fabulous Abba museum. But there are plenty of little-known facts about this city that even some locals might not be aware of – including an unusual story about Frank Zappa.",
   "image": "https://images.unsplash.com/photo-1442310205806-e3ff990dfd46?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8U3RvY2tob2xtfHx8fHx8MTY0Mjg2MDQ0NA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
   "id": 5,
   "country": "Norway",
   "cityName": "Oslo",
   "timeZone": "Europe/Oslo",
-  "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+  "description": "Oslo is a green city and was awarded the prestigious title European Green Capital in 2019. More than half of the municipality of Oslo is covered by forests and parks, and the fjord extends all the way to the city centre. The centre itself is becoming increasingly car-free and easy to explore on foot or by bike. An efficient public transport system makes the rest of the city easily accessible.",
   "image": "https://images.unsplash.com/photo-1582540807017-86c7dc166d2d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8T3Nsb3x8fHx8fDE2NDMwNDc2OTE&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 }, {
   "id": 6,
   "country": "Japan",
   "cityName": "Kobe",
   "timeZone": "Asia/Tokyo",
-  "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+  "description": "Kōbe, city, capital of Hyōgo ken (prefecture), west-central Honshu, Japan. Kōbe, its neighbouring city Ōsaka, and nearby Kyōto are the centres of the Keihanshin Industrial Zone, the second largest urban and industrial agglomeration in Japan, and the city and its surroundings constitute the western portion of the Ōsaka-Kōbe metropolitan area.",
   "image": "https://images.unsplash.com/photo-1559480671-6c53c761ee1b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8S29iZXx8fHx8fDE2NDMwNDgwMTY&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
   "id": 7,
   "country": "Germany",
   "cityName": "Hamburg",
   "timeZone": "Europe/Berlin",
-  "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+  "description": "Hamburg, the largest city in Germany after the capital of Berlin, lies at the head of the long funnel-shaped estuary of the River Elbe. Its location makes it an important link between the sea and Germany's network of inland waterways and numerous islands.",
   "image": "https://images.unsplash.com/photo-1600890817509-36067989440b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8SGFtYnVyZ3x8fHx8fDE2NDMwNTAzMjI&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
   "id": 8,
-  "country": "Sweden",
-  "cityName": "Stockholm",
-  "timeZone": "Europe/Stockholm",
-  "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
-  "image": "https://images.unsplash.com/photo-1614357546533-e4019fcec38d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8U3RvY2tob2xtfHx8fHx8MTY0MzA1MTI3Mg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
-},{
-  "id": 9,
   "country": "Germany",
   "cityName": "Berlin",
   "timeZone": "Europe/Berlin",
-  "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+  "description": "Berlin, September 2020 Berlin sets trends: Whether it’s sightseeing or hip neighbourhoods, galleries or gastronomy, music or fashion, there is always something new to discover in the German capital. Yet what is it exactly that makes Berlin so attractive? It is the capital’s diversity, contrasts and its virtually inexhaustible possibilities that excite visitors from all around the world.  Did you know that...",
   "image": "https://images.unsplash.com/photo-1617394557915-fdf2a65fcfec?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8QmVybGlufHx8fHx8MTY0MzA1NzI4NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 10,
+  "id": 9,
   "country": "America",
   "cityName": "New York",
   "timeZone": "America/New_York",
-  "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+  "description": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.",
   "image": "https://images.unsplash.com/photo-1559964633-6ce4f65312fc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8TmV3eW9ya3x8fHx8fDE2NDM4NDEyNjQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 11,
+  "id": 10,
   "country": "United Arab Emirates",
   "cityName": "Dubai",
   "timeZone": "Asia/Dubai",
-  "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+  "description": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks.",
   "image": "https://images.unsplash.com/photo-1528702748617-c64d49f918af?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8RHViYWl8fHx8fHwxNjQzODQxMzQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 12,
+  "id": 11,
   "country": "Russia",
   "cityName": "Moscow",
   "timeZone": "Europe/Moscow",
-  "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+  "description": "Moscow, on the Moskva River in western Russia, is the nation’s cosmopolitan capital. In its historic core is the Kremlin, a complex that’s home to the president and tsarist treasures in the Armoury. Outside its walls is Red Square, Russia's symbolic center. It's home to Lenin’s Mausoleum, the State Historical Museum's comprehensive collection and St. Basil’s Cathedral, known for its colorful, onion-shaped domes.",
   "image": "https://images.unsplash.com/photo-1523509433743-6f42a58221df?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8TW9zY293fHx8fHx8MTY0Mzg0MzA5MA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 13,
+  "id": 12,
   "country": "Spain",
   "cityName": "Madrid",
   "timeZone": "Europe/Madrid",
   "description": "Madrid, Spain's central capital, is a city of elegant boulevards and expansive, manicured parks such as the Buen Retiro. It's renowned for its rich repositories of European art, including the Prado Museum's works by Goya, Velázquez and other Spanish masters. The heart of old Hapsburg Madrid is the portico-lined Plaza Mayor, and nearby is the baroque Royal Palace and Armory, displaying historic weaponry.",
   "image": "https://images.unsplash.com/photo-1563741590013-e8772297d378?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFkcmlkfHx8fHx8MTY0Mzg0OTE2NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 14,
+  "id": 13,
   "country": "Greece",
   "cityName": "Athens",
   "timeZone": "Europe/Athens",
   "description": "Athens was the largest and most influential of the Greek city-states. It had many fine buildings and was named after Athena, the goddess of wisdom and warfare. The city is still dominated by 5th-century BC landmarks, including the Acropolis, a hilltop citadel topped with ancient buildings like the colonnaded Parthenon temple.",
   "image": "https://images.unsplash.com/photo-1577391011296-72687c6bd3e9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8QXRoZW5zfHx8fHx8MTY0Mzg0ODUzNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 15,
+  "id": 14,
   "country": "Italy",
   "cityName": "Rome",
   "timeZone": "Europe/Rome",
   "description": "Rome (or Roma in Italian) is the capital of Italy and has a population of 2.8 million. According to legend, Rome was founded by the twins Romulus and Remus in 753 BCE. Rome is often referred to as the City of Seven Hills due to its geographic location, and also as the Eternal City.",
   "image": "https://images.unsplash.com/photo-1601645234855-761c5648639f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8Um9tZXx8fHx8fDE2NDM4NDgwODc&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 16,
+  "id": 15,
   "country": "South Africa",
   "cityName": "Cape Town",
   "timeZone": "Africa/Maseru",
   "description": "Cape Town is a port city on South Africa's southwest coast, on a peninsula beneath the imposing Table Mountain. Slowly rotating cable cars climb to the mountain’s flat top, from which there are sweeping views of the city, the busy harbor and boats heading for Robben Island, the notorious prison that once held Nelson Mandela, which is now a living museum.",
   "image": "https://images.unsplash.com/photo-1597551961989-1157a103f8c9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8Q2FwZXRvd258fHx8fHwxNjQzODQ3Njg1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 17,
+  "id": 16,
   "country": "Australia",
   "cityName": "Sydney",
   "timeZone": "Australia/Sydney",
   "description": "Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. Massive Darling Harbour and the smaller Circular Quay port are hubs of waterside life, with the arched Harbour Bridge and esteemed Royal Botanic Garden nearby. Sydney Tower’s outdoor platform, the Skywalk, offers 360-degree views of the city and suburbs.",
   "image": "https://images.unsplash.com/photo-1621174618999-4282bb0621ff?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8U3lkbmV5fHx8fHx8MTY0Mzg0Njk3NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 18,
+  "id": 17,
   "country": "Turkey",
   "cityName": "Istanbul",
   "timeZone": "Europe/Istanbul",
   "description": "Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here. In the Sultanahmet district, the open-air, Roman-era Hippodrome was for centuries the site of chariot races, and Egyptian obelisks also remain. The iconic Byzantine Hagia Sophia features a soaring 6th-century dome and rare Christian mosaics.",
   "image": "https://images.unsplash.com/photo-1635354432326-dcb3cc0dfb85?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8SW5zdGFuYnVsfHx8fHx8MTY0Mzg0Njc1NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 19,
+  "id": 18,
   "country": "France",
   "cityName": "Paris",
   "timeZone": "Europe/Paris",
   "description": "Paris is one of the most beautiful cities in the world. It is known worldwide for the Louvre Museum, Notre-Dame cathedral, and the Eiffel tower. It has a reputation of being a romantic and cultural city. The city is also known for its high-quality gastronomy and the terraces of its cafés.",
   "image": "https://images.unsplash.com/photo-1508881070183-8db4c3937880?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8UGFyaXN8fHx8fHwxNjQzODQ2Njkw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 20,
+  "id": 19,
   "country": "Thailand",
   "cityName": "Bangkok",
   "timeZone": "Asia/Bangkok",
   "description": "Bangkok is Thailand's biggest urban centre and is home to 12.6 percent of the country’s population. It traces its roots to a small trading centre and port community during the Ayutthaya Kingdom in the 15th century.Today, Bangkok is a city of contrasts, easily combining the old and the new, the traditional and the modern. Sparkly temples, towering buildings, bustling open-air markets, glitzy shopping malls, contemporary museums, and some of the most unconventional activities and pieces of culture make Bangkok a fun and exciting destination.",
   "image": "https://images.unsplash.com/photo-1500109544561-15079e563127?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8QmFuZ2tva3x8fHx8fDE2NDM4NDYwMjA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 21,
+  "id": 20,
   "country": "China",
   "cityName": "Shanghai",
   "timeZone": "Asia/Shanghai",
   "description": "Shanghai, on China's central coast, is the country's biggest city and a global financial hub. Its heart is the Bund, a famed waterfront promenade lined with colonial-era buildings. Across the Huangpu River rises the Pudong district's futuristic skyline, including 632m Shanghai Tower and the Oriental Pearl TV Tower, with distinctive pink spheres.",
   "image": "https://images.unsplash.com/photo-1616159237950-377b0526f934?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8U2hhbmdoYWl8fHx8fHwxNjQzODQ1NzUx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 22,
+  "id": 21,
   "country": "India",
   "cityName": "Mumbai",
   "timeZone": "Asia/Kolkata",
   "description": "Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry.",
   "image": "https://images.unsplash.com/photo-1613080479903-ac64e5179438?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8TXVtYmFpfHx8fHx8MTY0Mzg0NTQ3Mw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 23,
+  "id": 22,
   "country": "Argentina",
   "cityName": "Buenos Aires",
   "timeZone": "America/Argentina/Buenos_Aires",
   "description": "Buenos Aires is Argentina's big, cosmopolitan capital city. Its center is the Plaza de Mayo, lined with stately 19th-century buildings including Casa Rosada, the iconic, balconied presidential palace. Other major attractions include Teatro Colón, a grand 1908 opera house with nearly 2,500 seats, and the modern MALBA museum, displaying Latin American art.",
   "image": "https://images.unsplash.com/photo-1589909634237-717751180967?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8QnVlbm9zfHx8fHx8MTY0Mzg0NTI3Nw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 24,
+  "id": 23,
   "country": "Iran",
   "cityName": "Tehran",
   "timeZone": "Asia/Tehran",
   "description": "Tehran is the capital of Iran, in the north of the country. Its central Golestan Palace complex, with its ornate rooms and marble throne, was the seat of power of the Qajar dynasty. The National Jewelry Museum holds many of the Qajar monarchs jewels, while the National Museum of Iran has artifacts dating back to Paleolithic times. The Milad Tower offers panoramic views over the city.",
   "image": "https://images.unsplash.com/photo-1549462541-9b46952297c1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8VGVocmFufHx8fHx8MTY0Mzg0NDgyNw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
 },{
-  "id": 25,
+  "id": 24,
   "country": "Egypt",
   "cityName": "Cairo",
   "timeZone": "Africa/Cairo",
